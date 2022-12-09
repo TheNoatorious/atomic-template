@@ -1,16 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
+import Header from "./components/organisms/header/header";
 import "./App.css";
-
-function Heading() {
-    let title = "This is some heading text";
-    return <h1>{title}</h1>;
-}
 
 function App() {
     return (
         <div className="container">
-            <Heading />
+            <Header />
         </div>
     );
 }
