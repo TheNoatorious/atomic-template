@@ -1,10 +1,12 @@
 import React, { FC } from "react";
-import styles from "./navigation.module.scss";
+// import styles from "./navigation.module.scss";
+import Logo from "../../atoms/Logo/Logo";
 
 interface NavigationProps {}
 
 const Navigation: FC<NavigationProps> = () => (
     <nav className="main-nav">
+        <Logo />
         <ul>
             <li>Home</li>
             <li>Articles</li>

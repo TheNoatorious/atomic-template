@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
-import Header from "./components/organisms/header/header";
+import Header from "./components/molecules/Header/Header";
+// import Visualizer from "./components/organisms/Visualizer/Visualizer";
 import "./App.css";
 
 function App() {
